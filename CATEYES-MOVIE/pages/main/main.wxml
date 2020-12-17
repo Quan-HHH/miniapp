@@ -1,0 +1,6 @@
+<!--pages/main/main.wxml-->
+<view class="container">
+  <scroll-view >
+    
+  </scroll-view>
+</view>

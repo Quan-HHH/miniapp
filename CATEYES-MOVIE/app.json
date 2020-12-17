@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/main/main",
+    "pages/mine/mine",
+    "pages/lesson/lesson"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "猫眼电影",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#1296db",
+    "list": [{
+      "pagePath": "pages/main/main",
+      "text": "首页",
+      "iconPath": "images/main_off.png",
+      "selectedIconPath": "images/main_off (1).png"
+    }, {
+      "pagePath": "pages/main/main",
+      "text": "课程",
+      "iconPath": "images/search (2).png",
+      "selectedIconPath": "images/search (1).png"
+    }, {
+      "pagePath": "pages/mine/mine",
+      "text": "我的",
+      "iconPath": "images/My.png",
+      "selectedIconPath": "images/My (1).png"
+    }]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
